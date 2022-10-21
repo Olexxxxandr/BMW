@@ -1,0 +1,36 @@
+.perform{
+    background: url(../../img/Perform\ image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.perform__title{
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 100px;
+}
+
+.perform__subtitle{
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.perform__content-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.perform__button{
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    padding: 20px 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+}

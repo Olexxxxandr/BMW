@@ -1,0 +1,54 @@
+.header{
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+}
+
+.header__content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.header__logo{
+    margin-left: 18px;
+}
+
+.header__logo-link{
+    display: block;
+    width: 77px;
+    height: 80px;
+    background-image: url(../../img/svg/BMW-logo.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__logo:hover{
+    transition: all 0.4s ease-in-out;
+    background-color: rgba(0, 0, 0, 0.025);
+}
+
+.header__navigation-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 139px;
+}
+
+.header__navigation-item:not(:last-child){
+    margin-right: 105px;
+}
+
+.header__navigation-item:hover{
+    transition: 1s;
+    color: rgb(194, 194, 194);;
+}
+
+.header__navigation-link{
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+}

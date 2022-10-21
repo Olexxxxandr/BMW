@@ -1,0 +1,30 @@
+.wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.button{
+    font-size: 20px;
+    line-height: 23px;
+    background: transparent;
+    width: 200px;
+    height: 60px;
+    color: white;
+    cursor: pointer;
+}
+
+.title-black{
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 49px;
+    color: #000000;
+    text-align: center;
+}
+
+.title-white{
+    text-transform: uppercase;
+    font-size: 42px;
+    line-height: 49px;
+    color: #fff;
+    text-align: center;
+}

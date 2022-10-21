@@ -1,0 +1,24 @@
+.accessories{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.accessories__title{
+    padding-bottom: 50px;
+}
+
+.accessories__content-accessories{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    cursor: pointer;
+}
+
+.accessories__content-title{
+    margin-top: 2px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}

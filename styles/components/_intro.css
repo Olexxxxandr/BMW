@@ -1,0 +1,47 @@
+.intro{
+    height: 100vh;
+    max-height: 850px;
+    background-image: url(../../img/intro_photo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.intro__title{
+    padding-top: 210px;
+    text-align: center;
+    font-size: 64px;
+    line-height: 75px;
+}
+
+.intro__buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 46px;
+}
+
+.intro__button:not(:last-child){
+    margin-right: 40px;
+}
+
+.button__pre-order{
+    background-color: #0066B1;
+}
+
+.button__pre-order:hover{
+    background-color: #005796;
+    color: rgb(194, 194, 194);;
+    transition: 1s;
+}
+
+.button__learn-more{
+    background-color: white;
+    color: #000;
+}
+
+.button__learn-more:hover{
+    transition: 1s;
+    background-color: rgb(194, 194, 194);
+    color: #005796;
+}

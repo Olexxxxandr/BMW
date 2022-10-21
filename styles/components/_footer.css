@@ -1,0 +1,76 @@
+.footer{
+    background-color: #808080;
+}
+
+.footer__content{
+    padding-top: 100px;
+}
+
+.footer__content-info{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__content-logo{
+    background: url(../../img/svg/BMW_logo_footer.svg);
+    margin-top: 45px;
+    margin-left: 52px;
+    height: 200px;
+    width: 200px;
+}
+
+.footer__content-menu{
+    padding-left: 45px;
+}
+
+.footer__content-menu-title{
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+}
+
+.footer-menu-links{
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+
+.soc:not(:last-child){
+    padding-left: 50px;
+}
+
+.footer__menu-soc-instagram{
+    display: inline-block;
+    background: url(../../img/svg/insta.svg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.footer__menu-soc-facebook{
+    display: inline-block;
+    background: url(../../img/svg/facebook.svg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.footer__menu-soc-twitter{
+    display: inline-block;
+    background: url(../../img/svg/twitter.svg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}
+
+.footer__menu-soc-youtube{
+    display: inline-block;
+    background: url(../../img/svg/youtube.svg);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 32px;
+}

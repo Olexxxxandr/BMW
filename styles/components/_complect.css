@@ -1,0 +1,51 @@
+.complect{
+    margin-top: 70px;
+    background: url(../../img/complect-photo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin-bottom: 100px;
+}
+
+.complect-title{
+    padding-top: 100px;
+}
+
+.complect__content-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-top: 50px;
+}
+
+.complect__content-cards:hover{
+    transition: 0.25s;
+    font-size: 48px;
+}
+
+.complect__content-card{
+    position: relative;
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.complect__content-card:hover{
+    transition: 1s;
+    opacity: 1.5;
+}
+
+.content-title{
+    margin-top: 225px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.content-title:hover{
+    transition: 0.25s;
+    font-size: 48px;
+}

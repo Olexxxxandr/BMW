@@ -1,0 +1,60 @@
+.icons{
+    height: 670px;
+    background-color: #000;
+    margin-top: 150px;
+}
+
+.icons__content{
+    padding-top: 100px;
+}
+
+.icons__title{
+    text-transform:capitalize;
+}
+
+.icons__content-icons{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 289px;
+}
+
+.icons__content-icon{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-title{
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ico{
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.icons-div-button{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icons-button{
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
